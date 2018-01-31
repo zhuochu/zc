@@ -65,7 +65,11 @@ namespace se {
     }
     
     void* State::nativeThisObject() const
-    {
+    {  
+        int a = 0;
+        int b = 2;
+        int c = a + b;
+/////_nativeThisObject
         return _nativeThisObject;
     }
 
